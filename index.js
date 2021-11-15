@@ -8,6 +8,7 @@ let next_request = url + asset_contract_address + token_id;
 // TODO : Keep "last_update" variable updated every time the user clicks on the "Refresh" button
 // If there is any event that happened after the "last_update" date :
 // => notify the user with a pop-up saying there's new events regarding the chosen token
+// date format from API : created_date: "2021-11-15T13:39:54.712196"
 let last_update = "madate";
 
 fetch(next_request, options)
