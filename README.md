@@ -10,5 +10,7 @@ The project is yet missing the connexion between the Front-end and the API reque
 * [HTML]
 * [Javascript]
 
-### Installation
-TBD, if any websockets are to be used
+### TODO
+Link the front-end to the API calls to make it dynamic for the user :
+* Finish the "date" process to notify the user if new any events happened
+* User connexion ? TBD, if any websockets are to be used
