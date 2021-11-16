@@ -8,8 +8,14 @@
 </head>
 <body>
 
-<input type="text" id="asset_contract_address" placeholder="Asset's contract address">
-<input type="text" id="inputMessage" placeholder="Token ID">
+<!--
+...assetContractAddress and tokenID inputs should be read and update the API respective infos...
+...The issue is that tracking multiple tokens would mean keeping multiple last_update variables...
+...which means using a DB would be way easier...
+-->
+
+<input type="text" id="assetContractAddress" placeholder="Asset's contract address">
+<input type="text" id="tokenID" placeholder="Token ID">
 
 <button id="refresh" onclick="newEvent()">Refresh</button>
 
@@ -17,7 +23,8 @@
 function newEvent() {
 // TODO
 // This is just a placeholder for the function that should provide infos
-// if there is any new events regarding the specific token
+// if there is any new events regarding the specific token or
+// a "No news regarding your token" message
   alert("New Events available regarding your Asset!");
 }
 </script>
